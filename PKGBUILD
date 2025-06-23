@@ -10,8 +10,6 @@ license=("GPL")
 
 #see https://wiki.archlinux.org/title/mkinitcpio#Possibly_missing_firmware_for_module_XXXX
 depends=(
-    "aic94xx-firmware"
-    "ast-firmware"
     "linux-firmware-atheros"
     "linux-firmware-broadcom"
     "linux-firmware-cirrus"
@@ -30,6 +28,8 @@ depends=(
     "linux-firmware-liquidio"
     "linux-firmware-mellanox"
     "linux-firmware-nfp"
+    "aic94xx-firmware"
+    "ast-firmware"
     "upd72020x-fw"
     "wd719x-firmware"
 )
