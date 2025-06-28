@@ -1,7 +1,7 @@
 # Maintainer: LinusDierheimer <Linus@Dierheimer.de>
 
 pkgname=mkinitcpio-fw
-pkgver=1.6.0
+pkgver=1.6.1
 pkgrel=1
 pkgdesc="Optional firmware for the default linux kernel to get rid of the annoying 'WARNING: Possibly missing firmware for module:' messages"
 arch=("any")
@@ -13,7 +13,6 @@ depends=(
     "linux-firmware-atheros"
     "linux-firmware-broadcom"
     "linux-firmware-cirrus"
-    "linux-firmware-intel"
     "linux-firmware-marvell"
     "linux-firmware-mediatek"
     "linux-firmware-mellanox"
